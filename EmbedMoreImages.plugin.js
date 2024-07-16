@@ -65,7 +65,7 @@ getSettingsPanel() {
 }
 
 embedImagesInContainer(container) {
-	const imgExtensions = ['.webp', '.apng', '.png', '.jpe', '.jfif', '.jif', '.jfi', '.avif', '.bmp', '.dib', '.rle', '.ico', '.cur'].map(ext => [ext, ext.toUpperCase()]).flat();
+	const imgExtensions = ['.webp', '.apng', '.png', '.jpe', '.jfif', '.jif', '.jfi', '.avif', '.jxl', '.bmp', '.dib', '.rle', '.ico', '.cur'].map(ext => [ext, ext.toUpperCase()]).flat();
 	const links = container.querySelectorAll('.fileNameLink_a4623d');
 	
 	const embedImageRecursive = (index) => {
